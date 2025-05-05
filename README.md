@@ -1,47 +1,64 @@
-# Sistem Peminjaman Buku Sederhana - Perpustakaan Ceria
+# 📖 Simple Book Borrowing System - Ceria Library
 
-Perpustakaan Ceria merupakan salah satu perpustakaan yang ramai di Gading Serpong. Namun, sistem peminjaman buku masih dilakukan secara manual, sehingga sering terjadi permohonan peminjaman yang terlewat dan keterlambatan pengembalian buku.
+**Ceria Library** is a popular library located in Gading Serpong. However, its book borrowing process has long relied on manual methods — leading to missed loan requests and overdue returns.
 
-Untuk meningkatkan efisiensi proses peminjaman, dikembangkan sebuah program komputer sederhana yang dapat membantu proses pengelolaan katalog publikasi serta peminjaman dan pengembalian buku.
-
-## 🎯 Tujuan
-
-Menyediakan prototipe sistem peminjaman buku yang dapat digunakan untuk mengelola katalog dan transaksi peminjaman secara lebih terstruktur dan efisien.
-
-## 📚 Fitur Utama
-
-1. **Menampilkan Katalog Publikasi**  
-   Menampilkan daftar semua publikasi dalam perpustakaan (buku dan artikel ilmiah) beserta detail informasi masing-masing.
-
-2. **Menambahkan Publikasi Baru**  
-   Menambahkan publikasi baru ke dalam katalog perpustakaan.
-
-3. **Peminjaman Publikasi (Order)**  
-   Melakukan proses peminjaman publikasi oleh pengguna.
-
-4. **Manajemen Order dan Status Peminjaman**  
-   Melihat dan mengubah status peminjaman setiap order yang ada.
-
-## 🔄 Status Peminjaman
-
-Setiap order peminjaman memiliki salah satu dari tiga status berikut:
-
-- `Ongoing` – Peminjaman sedang berlangsung (default saat order dibuat).
-- `Due` – Sudah melewati batas waktu peminjaman, namun belum dikembalikan.
-- `Returned` – Publikasi telah dikembalikan.
-
-## 🗃️ Struktur Data
-
-- Program menggunakan data katalog dari file teks yang telah disediakan.
-- Tidak diperlukan pembuatan data dummy tambahan.
-- Desain program mengikuti diagram UML yang tersedia sebagai panduan pengembangan.
-
-## ⚙️ Teknologi
-
-- Bahasa Pemrograman: Java
-- Tipe Aplikasi: Aplikasi konsol prototipe
-- Format Data: File teks untuk katalog
+To streamline this process, a simple yet powerful computer program was developed to help manage the publication catalog and handle borrowing transactions more efficiently and accurately.
 
 ---
 
-Program ini dikembangkan sebagai solusi cepat untuk menghadapi lonjakan permintaan peminjaman buku dan artikel ilmiah, khususnya menjelang masa liburan sekolah.
+## 🎯 Purpose
+
+To deliver a **console-based prototype system** for managing book borrowing operations in a more organized, reliable, and automated way.
+
+---
+
+## 🌟 Key Features
+
+### 📚 1. Display Publication Catalog
+- View all publications available in the library (including books and scientific articles).
+- Shows details such as title, author, and publication type.
+
+### ➕ 2. Add New Publications
+- Add new books or articles to the library catalog seamlessly.
+
+### 📦 3. Borrow Publications (Orders)
+- Allows users to borrow available publications.
+- Records borrowing transactions in the system.
+
+### 🔄 4. Manage Orders & Borrowing Status
+- View all borrowing orders.
+- Update the status of each order based on return progress.
+
+---
+
+## 📌 Borrowing Status Types
+
+Each borrowing order is assigned one of the following statuses:
+
+- 🟡 `Ongoing` – The publication is currently on loan (default on new orders).
+- 🔴 `Due` – The return date has passed, but the publication hasn't been returned yet.
+- ✅ `Returned` – The publication has been successfully returned.
+
+---
+
+## 🗃️ Data Structure
+
+- Catalog data is loaded from a pre-defined text file.
+- No mock data creation required.
+- Program design follows a provided **UML diagram** to ensure proper structure and scalability.
+
+---
+
+## 💻 Technologies Used
+
+- **Programming Language**: Java ☕
+- **Application Type**: Console-based Prototype
+- **Data Source**: Text File Input
+
+---
+
+## 📅 Context
+
+This system was designed as a **rapid solution** to anticipate the spike in book and article borrowing requests, especially before the school holiday season. It provides a solid foundation for digital transformation in traditional library operations.
+
+---
